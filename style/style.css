@@ -6,3 +6,33 @@
     --white-color: #FFFF;
     --section-background-color: #E7E7E7;
 }
+body{
+    font-family: Jost;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: var(--sub-text-color);
+}
+.dream-interior {
+    background-image: url(../images/IMAGE-2.jpg);
+}
+.dream-interior-header{
+color: var(--main-text-color);
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+}
+.challenging-designs-header{
+color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+}
