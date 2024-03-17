@@ -101,3 +101,104 @@ body {
     height: 635px;
     flex-shrink: 0;
 }
+
+.numbers{
+    background-color: var(--background-color);
+}
+.num-list{
+    padding: 140px 0;
+    display: flex;
+    justify-content: center;
+}
+.num-item{
+    margin-right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 288px;
+    height: 195px;
+}
+.num-item:not(:last-child){
+    border-right: 1px solid var(--accent-color);
+}
+.num-title{
+font-family: "DM Serif Display", sans-serif;
+font-weight: 400;
+font-size: 85px;
+line-height: 150%;
+text-align: center;
+color: var(--accent-color);
+}
+.num-subtitle{
+margin-top: 10px;
+text-align: center;
+color: var(--sub-text-color);
+}
+.recent-blogs{
+    padding: 147px 0 141px 0;
+}
+.blogs-title{
+font-family: "DM Serif Display", sans-serif;
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0em;
+text-align: center;
+color: var(--main-text-color);
+}
+.blogs-text{
+margin: 20px 0 70px 0;
+text-align: center;
+}
+.blogs-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs-item{
+    margin: 0 0 40px 11px;
+    flex-basis: calc((100% - 33px) / 3);
+    border: 1px solid var(--section-background-color);
+    border-radius: 62px;
+    padding: 21px;
+    display: grid;
+}
+.blogs-img{
+    grid-area: 1 / 1;
+}
+.blogs-subtitle{
+grid-area: 1 / 1;
+margin-top: 215px;
+font-size: 16px;
+border-radius: 8px 8px 8px 0;
+width: fit-content;
+height: 44px;
+padding: 6px 10px 11px 10px;
+background-color: var(--white-color);
+margin-left: 24px;
+}
+.blogs-subtext{
+font-family: "DM Serif Display", sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+grid-area: 1 / 1;
+margin-top: 310px;
+}
+.blogs-date{
+margin-top: 405px;
+font-size: 16px;
+grid-area: 1 / 1;
+}
+.blogs-button{
+width: 52px;
+height: 52px;
+background-image: url(../images/button-blogs.jpg);
+background-size: 52px;
+background-repeat: no-repeat;
+grid-area: 1 / 1;
+margin: 395px 0 41px 293px;
+}
