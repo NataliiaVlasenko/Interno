@@ -1,7 +1,13 @@
-.footer{
-    
+:root {
+    --accent-color: #CDA274;
+    --main-text-color: #292F36;
+    --sub-text-color: #4D5053;
+    --background-color: #F4F0EC;
+    --white-color: #FFFF;
+    --section-background-color: #E7E7E7;
 }
-body{
+
+body {
     font-family: Jost;
     font-weight: 400;
     font-style: normal;
@@ -10,11 +16,13 @@ body{
     letter-spacing: 0.22px;
     color: var(--sub-text-color);
 }
+
 .dream-interior {
-    background-image: url(../images/IMAGE-2.jpg);
+    background-image: url(../images/IMAGE-2-3.jpg);
 }
-.dream-interior-header{
-color: var(--main-text-color);
+
+.dream-interior-header {
+    color: var(--main-text-color);
     font-family: "DM Serif Display";
     font-size: 80px;
     font-style: normal;
@@ -22,17 +30,74 @@ color: var(--main-text-color);
     line-height: 96px;
     letter-spacing: 0.22px;
 }
-.challenging-designs-header{
-color: #292F36;
+
+.challenging-designs-header {
+    color: var(--main-text-color);
     font-family: "DM Serif Display";
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: 65px;
-    letter-spacing: 0.22px; 
+    letter-spacing: 0.22px;
 }
-.container{
+
+.challenging-designs-button {
+    width: 263px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 2px solid var(--main-text-color);
+    background: var(--main-text-color);
+}
+
+.challenging-designs-button::after {
+    content: "";
+    background-image: url(../images/button-image.png);
+}
+
+.call-us-image {
+    width: 93px;
+    height: 93px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--background-color);
+}
+
+.container {
     width: 1230px;
     margin: 0 auto;
     padding: 15px;
+}
+
+.dream-interior-button {
+    width: 207px;
+    height: 71px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: var(--main-text-color);
+    border-radius: 18px;
+    border: 2px solid var(--main-text-color);
+    background: var(--main-text-color);
+}
+
+.dream-interior-button::after {
+    content: "";
+    background-image: url(../images/button-image.png);
+
+
+}
+
+.container-dream-interior {
+    padding-top: 195px;
+    padding-bottom: 250px;
+    padding-left: 120px;
+    width: 600px;
+
+
+}
+
+.challenging-designs-image {
+    width: 592px;
+    height: 635px;
+    flex-shrink: 0;
 }
