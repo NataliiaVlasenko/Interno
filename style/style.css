@@ -298,3 +298,8 @@ margin: 395px 0 41px 293px;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+}
