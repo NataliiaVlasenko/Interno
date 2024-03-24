@@ -210,3 +210,6 @@ box-shadow: var(--button-shadow);
     border-radius: 90%;
     box-shadow: var(--button-shadow);
 }
+.blogs-item:hover{
+    box-shadow: var(--button-shadow);
+}
