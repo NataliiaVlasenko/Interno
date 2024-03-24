@@ -16,9 +16,10 @@ body {
     letter-spacing: 0.22px;
     color: var(--sub-text-color);
 }
-
 .dream-interior {
-    background-image: url(../images/IMAGE-2-3.jpg);
+    padding-top: 195px;
+    padding-bottom: 216px;
+    background-image: url(../images/IMAGE-2.jpg);
 }
 
 .dream-interior-header {
