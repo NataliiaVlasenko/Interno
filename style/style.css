@@ -335,3 +335,17 @@ body {
   width: 20px;
   height: 20px;
 }
+
+.logo>img {
+    width: 177px;
+    height: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
