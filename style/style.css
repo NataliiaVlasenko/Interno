@@ -298,3 +298,20 @@ margin: 395px 0 41px 293px;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+}
+.logo> img{
+    width: 177px;
+    height: 50px;
+}
+.footer-icon{
+    width: 333,36px ;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
