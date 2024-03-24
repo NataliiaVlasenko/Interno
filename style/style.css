@@ -47,6 +47,7 @@ color: var(--main-text-color);
 .challenging-designs-button::after{
     content: "";
 background-image: url(../images/button-image.png);
+display: block;
 }
 .call-us-image{
     width: 93px;
@@ -74,6 +75,7 @@ background-image: url(../images/button-image.png);
 .dream-interior-button::after{
     content: "";
 background-image: url(../images/button-image.png);
+display: block;
 
 
 }
