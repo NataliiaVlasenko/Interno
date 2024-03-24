@@ -5,6 +5,7 @@
     --background-color: #F4F0EC;
     --white-color: #FFFF;
     --section-background-color: #E7E7E7;
+    --button-shadow: 1px 5px 8px 2px rgba(0, 0, 0, 0.56);
 }
 
 body {
@@ -175,7 +176,7 @@ font-size: 16px;
 border-radius: 8px 8px 8px 0;
 width: fit-content;
 height: 44px;
-padding: 6px 10px 11px 10px;
+padding: 10px 10px 11px 10px;
 background-color: var(--white-color);
 margin-left: 24px;
 }
@@ -203,7 +204,18 @@ background-repeat: no-repeat;
 grid-area: 1 / 1;
 margin: 395px 0 41px 293px;
 }
+.blogs-subtitle:hover {
+    box-shadow: var(--button-shadow);
+}
 
+.blogs-button:hover {
+    border-radius: 90%;
+    box-shadow: var(--button-shadow);
+}
+
+.blogs-item:hover {
+    box-shadow: var(--button-shadow);
+}
 .interior-list{
     display: flex;
     flex-direction: row;
