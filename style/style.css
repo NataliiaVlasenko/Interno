@@ -235,102 +235,119 @@ body {
 .blogs-item:hover {
   box-shadow: var(--button-shadow);
 }
-.interior-list {
+.interior-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior-item{
+    padding: 75px;
+}
+
+.interior-title{
+    color: var(--main-text-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    text-align: center;
+}
+.interior-title{
+    color: var(--main-text-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    text-align: center;
+}
+.interior-paragraph{
+    color: var(--sub-text-color);
+    font-family: Jost;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: center;
+}
+.interior-button{
+    display: inline-flex;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--white-color);
+    padding: 20px 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+.interior-button::after{
+    content: "";
+    width: 24px;
+    height: 17px;
+    background-image: url(../images/button-without-background.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: 5px;
+}
+.recent-project-title{
+    color: var(--main-text-color);
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    margin: 10px;
+}
+.recent-project-paragraph{
+    color: var(--sub-text-color);
+    font-family: Jost;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    padding: 0 140px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.recent-project-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.recent-project-item{
+    flex-basis: calc((100% - 20px) /2);
+}
+.recent-project-image{
+    width: 590px;
+    height: 660px;
+    border-radius: 0 80px 0 0;
+    margin-bottom: 30px;
+}
+.recent-project-button{
+    content: "" ;
+    display: block;
+    background-image: url(../images/button-blogs.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sub-container{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
-
-.interior-item {
-  padding: 75px;
-}
-
-.interior-title {
-  color: var(--main-text-color);
-  font-family: "DM Serif Display";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 65px;
-  letter-spacing: 0.22px;
-  text-align: center;
-}
-.interior-paragraph {
-  color: var(--sub-text-color);
-  font-family: Jost;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.22px;
-  text-align: center;
-}
-.interior-button {
-  display: block;
-  width: 194px;
-  height: 27px;
-  text-align: center;
-  font-size: 18px;
-  background-color: var(--white-color);
-  padding: 20px 40px;
-  margin: 30px auto;
-}
-.interior-button::after {
-  content: "";
-  width: 24px;
-  height: 17px;
-  background-image: url(./images/button.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-right: 6px;
-}
-.recent-project-title {
-  color: var(--main-text-color);
-  font-family: "DM Serif Display";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 65px;
-  letter-spacing: 0.22px;
-  text-align: center;
-}
-.recent-project-paragraph {
-  color: var(--sub-text-color);
-  font-family: Jost;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.22px;
-  text-align: center;
-  padding: 20px 140px;
-}
-.recent-project-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.recent-project-item {
-  flex-basis: calc((100% - 20px) / 2);
-}
-.recent-project-image {
-  width: 590px;
-  height: 660px;
-  border-radius: 0 80px 0 0;
-  margin-bottom: 30px;
-}
-.recent-project-button {
-  width: 70px;
-  height: 70px;
-}
-.recent-project-button::after {
-  content: "";
-  background-image: url(./images/button-blogs.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .footer-social-icon {
   width: 20px;
   height: 20px;
