@@ -286,6 +286,80 @@ body {
 .blogs-item:hover {
   box-shadow: var(--button-shadow);
 }
+
+
+.join>.container {
+  /* margin-top: 100px; */
+  background-color: var(--main-text-color);
+  border-radius: 70px;
+  padding-bottom: 95px;
+    padding-top: 100px;
+}
+
+.join-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.join-title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 9px;
+}
+
+.join-subtitle {
+  text-transform: capitalize;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+
+.join-button {
+  text-transform: capitalize;
+  display: flex;
+  width: 241px;
+  height: 71px;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--white-color);
+  background-color: #CDA274;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-button::after {
+  content: "";
+  width: 25px;
+  height: 36px;
+  background-image: url(/images/join-button.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 27px;
+}
+
+.join-button:hover {
+  box-shadow: var(--button-shadow);
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+
+
 .interior-list{
     display: flex;
     flex-direction: row;
