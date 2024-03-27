@@ -70,7 +70,9 @@ body {
 .dream-interior {
   padding-top: 195px;
   padding-bottom: 216px;
-  background-image: url(../images/IMAGE-2-3.jpg);
+  background-image: url(../images/dream-interior-background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .dream-interior-header {
