@@ -291,19 +291,11 @@ body {
 
 
 .join>.container {
-  /* margin-top: 100px; */
+ 
   background-color: var(--main-text-color);
   border-radius: 70px;
   padding-bottom: 95px;
     padding-top: 100px;
-}
-
-.join-list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .join-title {
@@ -329,6 +321,7 @@ body {
 .join-button {
   text-transform: capitalize;
   display: flex;
+  margin: 0 auto;
   width: 241px;
   height: 71px;
   border-radius: 18px;
@@ -337,7 +330,7 @@ body {
   letter-spacing: 0.01em;
   text-align: center;
   color: var(--white-color);
-  background-color: #CDA274;
+  background-color: var(--accent-color);
   justify-content: center;
   align-items: center;
 }
@@ -346,7 +339,7 @@ body {
   content: "";
   width: 25px;
   height: 36px;
-  background-image: url(/images/join-button.png);
+  background-image: url(../images/join-button.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 27px;
@@ -359,8 +352,6 @@ body {
 .lowercase {
   text-transform: lowercase;
 }
-
-
 
 .interior-list{
     display: flex;
