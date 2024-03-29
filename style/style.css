@@ -48,8 +48,6 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.22px;
-  padding: 20px 40px;
- 
 }
 
 .header-link::before{
@@ -415,8 +413,7 @@ body {
     margin-left: 12px;
 }
 .interior-button:hover{
-  box-shadow: var(--button-shadow);
-  border-radius: 20px;
+  color: var(--accent-color);
 }
 .recent-project-title{
     color: var(--main-text-color);
