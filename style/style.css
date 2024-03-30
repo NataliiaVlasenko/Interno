@@ -70,14 +70,13 @@ body {
   padding-bottom: 216px;
   background-image: url(../images/dream-interior-background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  
- 
-}
+  background-position: center;
+  /* background-size: cover; */
+   
+} 
 .dream-interior>.container {
   margin-right: auto;
- 
- 
+  
 }
 
 .dream-interior-header {
