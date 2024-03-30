@@ -129,27 +129,17 @@ color: var(--white-color);
   margin-bottom: 42px;
 }
 .challenging-designs-button {
-  width: 263px;
-  height: 71px;
-  flex-shrink: 0;
+
   border-radius: 18px;
-  border: 2px solid var(--main-text-color);
-  /* background: var(--main-text-color); */
-  background-image: url(../images/button-image.png);
-  background-position: start;
-  background-size: cover;
-  margin-top: 50px;
+    color: var(--white-color);
+    text-transform: capitalize;
+    padding: 26px 80px 26px 30px;
+    font-family: "Jost";
+    background-image: url(../images/button-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-
-.challenging-designs-button::after {
-  content: "";
-  /* background-image: url(../images/button-image.png); */
-  display: block;
-
-}
-
-
 .challenging-designs-button:hover{
     box-shadow: var(--button-shadow);
 }
@@ -193,14 +183,6 @@ color: var(--white-color);
 }
 .call-us-image:hover{
   box-shadow: var(--button-shadow);
-}
-.challenging-designs-button {
-  width: 263px;
-  height: 71px;
-  flex-shrink: 0;
-  border-radius: 18px;
-  border: 2px solid var(--main-text-color);
-  background: var(--main-text-color);
 }
 
 
