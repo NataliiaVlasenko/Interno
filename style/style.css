@@ -71,7 +71,13 @@ body {
   background-image: url(../images/dream-interior-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding: 147px 0 141px 0; */
+  
+ 
+}
+.dream-interior>.container {
+  margin-right: auto;
+ 
+ 
 }
 
 .dream-interior-header {
@@ -82,38 +88,33 @@ body {
   font-weight: 400;
   line-height: 96px;
   letter-spacing: 0.22px;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
-.dream-interior-button-text{
-  color: var(--white-color);
+
+.dream-interior-description {
+  max-width: 600px;
+  margin-bottom: 35px;
 }
+
+
 .dream-interior-button {
-  width: 207px;
-  height: 71px;
-  flex-shrink: 0;
-  stroke-width: 2px;
-  stroke: var(--main-text-color);
+
   border-radius: 18px;
+color: var(--white-color);
+  text-transform: capitalize;
+  padding: 21px 67px 23px 34px;
   border: 2px solid var(--main-text-color);
-  background: var(--main-text-color);
-}
-
-.dream-interior-button::after {
-  content: "";
+  font-family: "Jost";
+  
   background-image: url(../images/button-image.png);
-  display: block;
-  background-size: contain;
-      background-repeat: no-repeat;
-
 }
+
+
 .dream-interior-button:hover{
     box-shadow: var(--button-shadow);
 }
-.container-dream-interior {
 
-  padding-bottom: 250px;
-  padding-left: 120px;
-  width: 600px;
-}
 
 .challenging-designs{
   padding-top: 100px;
