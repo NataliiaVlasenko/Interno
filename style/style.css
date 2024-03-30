@@ -542,15 +542,38 @@ margin-bottom: 20px;
 }
 
 .logo>img {
-    width: 177px;
-    height: 50px;
+  width: 177px;
+  height: 50px;
 }
 
 .footer-icons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 40px;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-columns {
+  display: flex;
+  list-style-type: none
+}
+
+.footer-column {
+  flex: 1;
+  padding: 20px;
+  margin: 0 auto;
+
+}
