@@ -83,7 +83,37 @@ body {
   line-height: 96px;
   letter-spacing: 0.22px;
 }
+.dream-interior-button-text{
+  color: var(--white-color);
+}
+.dream-interior-button {
+  width: 207px;
+  height: 71px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: var(--main-text-color);
+  border-radius: 18px;
+  border: 2px solid var(--main-text-color);
+  background: var(--main-text-color);
+}
 
+.dream-interior-button::after {
+  content: "";
+  background-image: url(../images/button-image.png);
+  display: block;
+  background-size: contain;
+      background-repeat: no-repeat;
+
+}
+.dream-interior-button:hover{
+    box-shadow: var(--button-shadow);
+}
+.container-dream-interior {
+
+  padding-bottom: 250px;
+  padding-left: 120px;
+  width: 600px;
+}
 
 .challenging-designs-header {
   color: var(--main-text-color);
@@ -108,6 +138,39 @@ body {
   background-image: url(../images/button-image.png);
   display: block;
 }
+.challenging-designs-button:hover{
+    box-shadow: var(--button-shadow);
+}
+.challenging-designs-button-text{
+  color: var(--white-color);
+}
+.challenging-designs-container{
+  display: flex;
+    width: 1200px;
+    height: 634.609px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+.first-part-section{
+  width: 592px;
+    height: 581px;
+    flex-shrink: 0;
+    padding-left: 120px;
+}
+.challenging-designs-image {
+  width: 592px;
+  height: 635px;
+  flex-shrink: 0;
+  border-radius: 0px 326px 0px 123px;
+}
+
+.challenging-designs-image:hover{
+  box-shadow: var(--button-shadow);
+}
 
 .call-us-image {
   width: 93px;
@@ -115,6 +178,9 @@ body {
   flex-shrink: 0;
   border-radius: 100px;
   background: var(--background-color);
+}
+.call-us-image:hover{
+  box-shadow: var(--button-shadow);
 }
 .challenging-designs-button {
   width: 263px;
@@ -137,41 +203,18 @@ body {
   border-radius: 100px;
   background: var(--background-color);
 }
+.group-1{
+display: inline-flex;
+  padding: 10.203px 264.688px 39.797px 0px;
+  align-items: center;
+  gap: 20px;
+ 
+}
 
 .container {
   width: 1230px;
   margin: 0 auto;
   padding: 15px;
-}
-
-.dream-interior-button {
-  width: 207px;
-  height: 71px;
-  flex-shrink: 0;
-  stroke-width: 2px;
-  stroke: var(--main-text-color);
-  border-radius: 18px;
-  border: 2px solid var(--main-text-color);
-  background: var(--main-text-color);
-}
-
-.dream-interior-button::after {
-  content: "";
-  background-image: url(../images/button-image.png);
-  display: block;
-}
-
-.container-dream-interior {
-  padding-top: 195px;
-  padding-bottom: 250px;
-  padding-left: 120px;
-  width: 600px;
-}
-
-.challenging-designs-image {
-  width: 592px;
-  height: 635px;
-  flex-shrink: 0;
 }
 
 .numbers {
