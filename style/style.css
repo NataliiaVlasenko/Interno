@@ -618,6 +618,13 @@ padding-top: 140px;
   height: 100%;
     }
 
+.footer {
+  padding-top: 100px;
+  padding-bottom:  50px;
+}
+
+
+
 .footer-social-icon {
   width: 20px;
   height: 20px;
@@ -633,6 +640,7 @@ padding-top: 140px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
+  padding: 20px 0;
 }
 
 .footer-list {
@@ -657,4 +665,17 @@ padding-top: 140px;
   flex: 1;
   padding: 20px;
   margin: 0 auto;
+}
+
+.footer-info, .footer-telephone, .footer-mail {
+  color: var(--sub-text-color);
+}
+
+.copyright {
+  border-top: solid var(--section-background-color);
+    padding-top: 35px;
+}
+
+.yellow {
+  color: var(--accent-color);
 }
